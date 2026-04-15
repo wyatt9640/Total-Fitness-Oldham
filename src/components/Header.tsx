@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logo from "@/assets/logo.jpeg";
 
 const links = [
   { label: "About", href: "#about" },
@@ -23,8 +24,11 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#" className="text-2xl text-foreground" style={{ fontFamily: "var(--font-heading)" }}>
-          TOTAL FITNESS <span className="text-primary">OLDHAM</span>
+        <a href="#" className="flex items-center gap-3">
+          <img src={logo} alt="Total Fitness Oldham" className="h-10 w-10 rounded-full object-cover" />
+          <span className="text-2xl text-foreground" style={{ fontFamily: "var(--font-heading)" }}>
+            TOTAL FITNESS <span className="text-primary">OLDHAM</span>
+          </span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">

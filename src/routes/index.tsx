@@ -4,6 +4,7 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import WomensSection from "@/components/WomensSection";
 import MembershipsSection from "@/components/MembershipsSection";
+import GallerySection from "@/components/GallerySection";
 import ReviewsSection from "@/components/ReviewsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -28,6 +29,7 @@ function Index() {
       <AboutSection />
       <WomensSection />
       <MembershipsSection />
+      <GallerySection />
       <ReviewsSection />
       <ContactSection />
       <Footer />

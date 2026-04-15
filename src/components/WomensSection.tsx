@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import womensImg from "@/assets/womens-section.jpg";
+import womensImg from "@/assets/gallery-8.jpeg";
 
 export default function WomensSection() {
   return (

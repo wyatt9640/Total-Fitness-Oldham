@@ -11,9 +11,10 @@ export default function Footer() {
               <p className="text-2xl text-foreground" style={{ fontFamily: "var(--font-heading)" }}>
                 TOTAL FITNESS <span className="text-primary">OLDHAM</span>
               </p>
-            <p className="mt-1 text-sm text-muted-foreground">
-              Your local gym family since day one.
-            </p>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Your local gym family since day one.
+              </p>
+            </div>
           </div>
           <div className="text-center text-sm text-muted-foreground md:text-right">
             <p>Daniel St, Oldham OL1 3NS</p>

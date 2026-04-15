@@ -1,18 +1,18 @@
 import { motion } from "framer-motion";
+import heroVideo from "@/assets/hero.mp4";
 
 export default function HeroSection() {
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <section className="relative h-screen w-full overflow-hidden bg-background">
       <video
         autoPlay
         muted
         loop
         playsInline
+        preload="auto"
         className="absolute inset-0 h-full w-full object-cover"
-      >
-        <source src="/videos/hero.mp4" type="video/mp4" />
-        <source src="/videos/hero.mov" type="video/quicktime" />
-      </video>
+        src={heroVideo}
+      />
 
       <div className="absolute inset-0 bg-[var(--hero-overlay)]" />
       <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />

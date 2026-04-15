@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import heroVideo from "@/assets/hero.mp4";
 
 export default function HeroSection() {
   return (
@@ -11,8 +10,9 @@ export default function HeroSection() {
         playsInline
         preload="auto"
         className="absolute inset-0 h-full w-full object-cover"
-        src={heroVideo}
-      />
+      >
+        <source src="/videos/hero.mp4" type="video/mp4" />
+      </video>
 
       <div className="absolute inset-0 bg-[var(--hero-overlay)]" />
       <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />

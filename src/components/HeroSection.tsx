@@ -10,8 +10,8 @@ export default function HeroSection() {
         playsInline
         className="absolute inset-0 h-full w-full object-cover"
       >
+        <source src="/videos/hero.mp4" type="video/mp4" />
         <source src="/videos/hero.mov" type="video/quicktime" />
-        <source src="/videos/hero.mov" type="video/mp4" />
       </video>
 
       <div className="absolute inset-0 bg-[var(--hero-overlay)]" />

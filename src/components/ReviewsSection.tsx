@@ -55,6 +55,17 @@ export default function ReviewsSection() {
             </motion.div>
           ))}
         </div>
+
+        <div className="mt-10 text-center">
+          <a
+            href="https://www.google.com/maps/place/Total+Fitness+Oldham/@53.5409,-2.1089,17z/data=!4m8!3m7!1s0x0:0x0!8m2!3d53.5409!4d-2.1089!9m1!1b1!16s"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-lg font-semibold text-primary transition-opacity hover:opacity-80"
+          >
+            Show More Reviews →
+          </a>
+        </div>
       </div>
     </section>
   );

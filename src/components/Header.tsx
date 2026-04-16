@@ -102,16 +102,13 @@ export default function Header() {
             </a>
           ))}
 
-          <div className="flex items-center gap-5 border-t border-muted py-4">
-            <a href={IG_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary">
-              <IgIcon className="h-6 w-6" />
-              <span>Instagram</span>
-            </a>
-            <a href={FB_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary">
-              <FbIcon className="h-6 w-6" />
-              <span>Facebook</span>
-            </a>
-          </div>
+          <p className="py-3 text-primary font-bold">Follow us:</p>
+          <a href={IG_LINK} target="_blank" rel="noopener noreferrer" className="block py-2 text-primary font-semibold">
+            📷 Instagram
+          </a>
+          <a href={FB_LINK} target="_blank" rel="noopener noreferrer" className="block py-2 text-primary font-semibold">
+            👍 Facebook
+          </a>
 
           <a
             href="tel:01616284711"

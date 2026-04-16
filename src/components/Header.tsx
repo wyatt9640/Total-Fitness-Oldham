@@ -118,6 +118,12 @@ export default function Header() {
           </a>
         </div>
       ) : null}
+
+      <div className="bg-primary px-4 py-2 text-center">
+        <p className="text-xs font-bold uppercase tracking-wider text-primary-foreground md:text-sm">
+          🎉 Kids &amp; Adult Classes — Coming Soon! Stay tuned for details.
+        </p>
+      </div>
     </header>
   );
 }

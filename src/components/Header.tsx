@@ -46,7 +46,7 @@ export default function Header() {
         <a href="#" className="flex items-center gap-3">
           <img src={logo} alt="Total Fitness Oldham" className="h-10 w-10 rounded-full object-cover" />
           <span className="text-2xl text-foreground" style={{ fontFamily: "var(--font-heading)" }}>
-            TOTAL FITNESS <span className="text-primary">OLDHAM</span> ✨
+            TOTAL FITNESS <span className="text-primary">OLDHAM</span>
           </span>
         </a>
 

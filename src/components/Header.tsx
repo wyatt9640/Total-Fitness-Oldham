@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import logo from "@/assets/logo.jpeg";
 
+const INSTAGRAM_URL = "https://www.instagram.com/totalfitnessoldham1?igsh=MThkajdvMmU4aDBuag==";
+const FACEBOOK_URL = "https://www.facebook.com/share/1Fzcn6KGgZ/?mibextid=wwXIfr";
+
 const links = [
   { label: "About", href: "#about" },
   { label: "Memberships", href: "#memberships" },

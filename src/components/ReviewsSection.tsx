@@ -58,7 +58,7 @@ export default function ReviewsSection() {
 
         <div className="mt-10 text-center">
           <a
-            href="https://www.google.com/maps/place/Total+Fitness+Oldham/@53.5409,-2.1089,17z/data=!4m8!3m7!1s0x0:0x0!8m2!3d53.5409!4d-2.1089!9m1!1b1!16s"
+            href="https://www.google.com/search?sca_esv=00e10f0057297768&rlz=1C1VDKB_enGB1125GB1125&sxsrf=ANbL-n7YoL1fUb56TdwpTIGxYM5vH4RmEg:1776349730875&q=total+fitness+oldham&si=AL3DRZHrmvnFAVQPOO2Bzhf8AX9KZZ6raUI_dT7DG_z0kV2_x1SDg1feLtNe6KPf4i_HmI1TXEo8IntRtoc_Rbi6P4urygzchTZfztaNBI600MXgjeNdYvWw86Jp5Uc2jqfV4b4c_kciVKKSru19xSkxHhxDKQ78dw%3D%3D&sa=X&ved=2ahUKEwjYm9K1yvKTAxVkWEEAHc_JOA8QrrQLegQIHxAA&biw=1536&bih=730&dpr=1.25"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-lg font-semibold text-primary transition-opacity hover:opacity-80"

@@ -1,9 +1,44 @@
+import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 
 export default function HeroSection() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [autoplayBlocked, setAutoplayBlocked] = useState(false);
+
+  useEffect(() => {
+    const video = videoRef.current;
+
+    if (!video) {
+      return;
+    }
+
+    const attemptPlayback = async () => {
+      try {
+        video.muted = true;
+        video.defaultMuted = true;
+        await video.play();
+        setAutoplayBlocked(false);
+      } catch {
+        setAutoplayBlocked(true);
+      }
+    };
+
+    const handleCanPlay = () => {
+      void attemptPlayback();
+    };
+
+    video.addEventListener("canplay", handleCanPlay);
+    void attemptPlayback();
+
+    return () => {
+      video.removeEventListener("canplay", handleCanPlay);
+    };
+  }, []);
+
   return (
     <section className="relative h-screen w-full overflow-hidden bg-background">
       <video
+        ref={videoRef}
         autoPlay
         muted
         loop
@@ -59,6 +94,29 @@ export default function HeroSection() {
             Find Us
           </a>
         </motion.div>
+
+        {autoplayBlocked ? (
+          <motion.button
+            type="button"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.1, duration: 0.4 }}
+            onClick={() => {
+              const video = videoRef.current;
+
+              if (!video) {
+                return;
+              }
+
+              video.muted = true;
+              video.defaultMuted = true;
+              void video.play().then(() => setAutoplayBlocked(false));
+            }}
+            className="mt-4 rounded-full border border-border bg-background/70 px-5 py-2 text-sm font-semibold text-foreground backdrop-blur transition-colors hover:bg-secondary"
+          >
+            Tap to play the entrance video
+          </motion.button>
+        ) : null}
 
         <motion.div
           initial={{ opacity: 0 }}

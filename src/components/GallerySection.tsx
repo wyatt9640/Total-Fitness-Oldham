@@ -14,7 +14,6 @@ const photos = [
   { src: gallery1, alt: "Members training together on cable machines" },
   { src: gallery2, alt: "Member using the leg press" },
   { src: gallery3, alt: "Members having a chat between sets" },
-  { src: gallery4, alt: "Member doing push-ups in the gym" },
   { src: gallery5, alt: "Member training with dumbbells" },
   { src: gallery6, alt: "Friends supporting each other during a workout" },
   { src: gallery7, alt: "Personal training session at Total Fitness" },

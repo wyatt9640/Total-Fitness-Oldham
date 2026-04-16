@@ -25,6 +25,11 @@ function Index() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
+      <div className="bg-primary px-4 py-3 text-center">
+        <p className="text-sm font-bold uppercase tracking-wider text-primary-foreground md:text-base">
+          🎉 Kids &amp; Adult Classes — Coming Soon! Stay tuned for details.
+        </p>
+      </div>
       <HeroSection />
       <AboutSection />
       <WomensSection />

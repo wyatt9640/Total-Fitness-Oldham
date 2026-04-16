@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import gymCommunity from "@/assets/gallery-3.jpeg";
+import gymCommunity from "@/assets/gallery-4.jpeg";
 
 const features = [
   { icon: "🤝", title: "Community First", desc: "We're a family, not just a gym. Everyone knows your name here." },

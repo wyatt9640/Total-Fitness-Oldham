@@ -38,7 +38,7 @@ export default function AboutSection() {
           <img
             src={gymCommunity}
             alt="Community atmosphere at Total Fitness Oldham"
-            className="h-80 w-full object-cover object-top md:h-96"
+            className="h-80 w-full object-contain object-bottom md:h-[32rem]"
           />
         </motion.div>
 

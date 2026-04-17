@@ -8,6 +8,9 @@ import gallery7 from "@/assets/gallery-7.jpeg";
 import gallery8 from "@/assets/gallery-8.jpeg";
 import gallery9 from "@/assets/gallery-9.jpeg";
 import gallery10 from "@/assets/gallery-10.jpeg";
+import gallery11 from "@/assets/gallery-11.jpeg";
+import gallery12 from "@/assets/gallery-12.jpeg";
+import gallery13 from "@/assets/gallery-13.jpeg";
 
 const photos = [
   { src: gallery1, alt: "Members training together on cable machines" },
@@ -19,6 +22,9 @@ const photos = [
   { src: gallery8, alt: "Member training in the gym" },
   { src: gallery9, alt: "Member pushing the Hyrox sled" },
   { src: gallery10, alt: "Member boxing training with speed ball" },
+  { src: gallery11, alt: "Member doing renegade rows with dumbbells" },
+  { src: gallery12, alt: "Member performing a barbell squat" },
+  { src: gallery13, alt: "Member training on the incline bench press" },
 ];
 
 export default function GallerySection() {

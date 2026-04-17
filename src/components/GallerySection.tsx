@@ -32,6 +32,7 @@ const slideshowPhotos = [
   { src: gallery1, alt: "Members training together on cable machines" },
   { src: gallery2, alt: "Member using the leg press" },
   { src: gallery3, alt: "Members having a chat between sets" },
+  { src: gallery6, alt: "Friends supporting each other during a workout" },
   { src: gallery7, alt: "Personal training session at Total Fitness" },
   { src: gallery8, alt: "Member training in the gym" },
   { src: gallery9, alt: "Member pushing the Hyrox sled" },

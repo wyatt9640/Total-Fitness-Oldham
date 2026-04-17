@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Instagram, Facebook, Youtube } from "lucide-react";
 import imranImg from "@/assets/family-imran.png";
+import mariuszImg from "@/assets/family-mariusz.png";
 
 type Social = {
   type: "instagram" | "facebook" | "tiktok" | "youtube";
@@ -32,12 +33,11 @@ const family: Member[] = [
     ],
   },
   {
-    name: "Add Name",
+    name: "Mariusz Jotejko",
     role: "Personal Trainer",
-    image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=600&q=80",
+    image: mariuszImg,
     socials: [
-      { type: "instagram", url: "https://instagram.com/" },
-      { type: "tiktok", url: "https://tiktok.com/" },
+      { type: "instagram", url: "https://instagram.com/imstrongcoaching" },
     ],
   },
   {

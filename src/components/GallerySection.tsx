@@ -20,10 +20,11 @@ import gallery10 from "@/assets/gallery-10.jpeg";
 import gallery11 from "@/assets/gallery-11.jpeg";
 import gallery12 from "@/assets/gallery-12.jpeg";
 import gallery13 from "@/assets/gallery-13.jpeg";
+import gallery14 from "@/assets/gallery-14.jpeg";
 
 const featured = [
   { src: gallery5, alt: "Member training with dumbbells in the mirror" },
-  { src: gallery6, alt: "Friends supporting each other during a workout" },
+  { src: gallery14, alt: "Member training with foot on the bench at the cable machine" },
   { src: gallery10, alt: "Member boxing training with speed ball" },
 ];
 

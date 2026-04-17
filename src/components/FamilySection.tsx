@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Instagram, Facebook, Youtube } from "lucide-react";
+import imranImg from "@/assets/family-imran.png";
 
 type Social = {
   type: "instagram" | "facebook" | "tiktok" | "youtube";
@@ -40,11 +41,12 @@ const family: Member[] = [
     ],
   },
   {
-    name: "Add Name",
-    role: "Member & Hyrox Athlete",
-    image: "https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=600&q=80",
+    name: "FitnessFreakImran",
+    role: "Member",
+    image: imranImg,
     socials: [
-      { type: "instagram", url: "https://instagram.com/" },
+      { type: "instagram", url: "https://instagram.com/fitness.freak.imran" },
+      { type: "tiktok", url: "https://tiktok.com/@fitnessfreakimran" },
     ],
   },
 ];

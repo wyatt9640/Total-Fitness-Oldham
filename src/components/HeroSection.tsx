@@ -59,7 +59,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-6xl tracking-wider text-foreground md:text-8xl lg:text-9xl">
-            TOTAL FITNESS
+            TOTAL FITNESS<sup className="ml-2 text-base align-super tracking-normal text-muted-foreground md:text-xl">Ltd</sup>
           </h1>
           <p className="mt-2 text-xl tracking-[0.3em] text-primary md:text-2xl">
             OLDHAM

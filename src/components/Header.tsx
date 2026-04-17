@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import logo from "@/assets/logo.jpeg";
 
-const IG_LINK = "https://www.instagram.com/totalfitnessoldham1?igsh=MThkajdvMmU4aDBuag==";
-const FB_LINK = "https://www.facebook.com/share/1Fzcn6KGgZ/?mibextid=wwXIfr";
+const IG_LINK = "https://www.instagram.com/totalfitnessoldham1";
+const FB_LINK = "https://www.facebook.com/totalfitnessoldham1";
 
 const navLinks = [
   { label: "About", href: "#about" },

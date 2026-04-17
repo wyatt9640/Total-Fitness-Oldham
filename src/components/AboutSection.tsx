@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Instagram } from "lucide-react";
-import gymCommunity from "@/assets/gallery-4.jpeg";
 import shinseiPartnership from "@/assets/shinsei-partnership.jpeg";
 
 const features = [
@@ -54,19 +53,6 @@ export default function AboutSection() {
           />
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.3 }}
-          className="mt-6 overflow-hidden rounded-2xl"
-        >
-          <img
-            src={gymCommunity}
-            alt="Community atmosphere at Total Fitness Oldham"
-            className="h-80 w-full object-contain md:h-[32rem]"
-          />
-        </motion.div>
 
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((f, i) => (

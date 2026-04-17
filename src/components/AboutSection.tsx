@@ -49,7 +49,7 @@ export default function AboutSection() {
           <img
             src={shinseiPartnership}
             alt="Total Fitness Oldham team with Shinsei Academy at reception"
-            className="h-80 w-full object-cover md:h-[32rem]"
+            className="h-80 w-full object-cover object-top md:h-[32rem]"
           />
         </motion.div>
 

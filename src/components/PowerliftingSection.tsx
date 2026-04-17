@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { Instagram, Facebook, Youtube } from "lucide-react";
+import davidCliffordImg from "@/assets/lifter-david-clifford.jpeg";
+import davidCliffordCert from "@/assets/lifter-david-clifford-cert.jpeg";
 
 type Social = {
   type: "instagram" | "facebook" | "tiktok" | "youtube";
@@ -23,11 +25,11 @@ const TikTokIcon = ({ className }: { className?: string }) => (
 // Placeholder lifters — replace with real photos, certificates and socials.
 const lifters: Lifter[] = [
   {
-    name: "Add Name",
-    title: "British Champion 2024",
-    image: "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=800&q=80",
-    certificate: "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?w=800&q=80",
-    socials: [{ type: "instagram", url: "https://instagram.com/" }],
+    name: "David Clifford",
+    title: "British Masters Divisional Champion 2021",
+    image: davidCliffordImg,
+    certificate: davidCliffordCert,
+    socials: [{ type: "instagram", url: "https://instagram.com/dacdac65" }],
   },
   {
     name: "Add Name",

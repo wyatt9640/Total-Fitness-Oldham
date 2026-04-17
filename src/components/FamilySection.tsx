@@ -24,12 +24,12 @@ const TikTokIcon = ({ className }: { className?: string }) => (
 
 const family: Member[] = [
   {
-    name: "Add Name",
-    role: "Head Coach",
+    name: "Nicole",
+    role: "Personal Trainer",
     image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&q=80",
     socials: [
-      { type: "instagram", url: "https://instagram.com/" },
-      { type: "facebook", url: "https://facebook.com/" },
+      { type: "instagram", url: "https://instagram.com/movewithnicolee" },
+      { type: "facebook", url: "https://facebook.com/movewithnicolee" },
     ],
   },
   {

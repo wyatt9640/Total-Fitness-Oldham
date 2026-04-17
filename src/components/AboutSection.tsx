@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
+import { Instagram } from "lucide-react";
 import gymCommunity from "@/assets/gallery-4.jpeg";
+import shinseiPartnership from "@/assets/shinsei-partnership.jpeg";
 
 const features = [
   { icon: "🤝", title: "Community First", desc: "We're a family, not just a gym. Everyone knows your name here." },
@@ -20,12 +22,22 @@ export default function AboutSection() {
           viewport={{ once: true }}
           className="text-center"
         >
-          <h2 className="text-5xl text-primary md:text-6xl">YOUR LOCAL GYM FAMILY</h2>
+          <h2 className="text-5xl text-primary md:text-6xl">TOTAL FITNESS OLDHAM <span className="text-foreground">×</span> SHINSEI ACADEMY</h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-            Total Fitness Oldham isn't your typical gym. We're a tight-knit community where
-            everyone supports each other — whether you're just starting out or you've been
-            training for years. Pop in, have a chat, and feel at home.
+            We've teamed up with <span className="text-foreground font-semibold">Shinsei Academy</span>,
+            a local martial arts gym, to bring even more to the Oldham fitness community. Together
+            we're building a place where strength, discipline and friendship come first — a real
+            community where everyone is welcome, supported and known by name.
           </p>
+          <a
+            href="https://www.instagram.com/shinsei_academy_official/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-5 inline-flex items-center gap-2 rounded-full border border-border bg-card px-5 py-2 text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
+          >
+            <Instagram className="h-4 w-4 text-primary" />
+            @shinsei_academy_official
+          </a>
         </motion.div>
 
         <motion.div
@@ -34,6 +46,20 @@ export default function AboutSection() {
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
           className="mt-12 overflow-hidden rounded-2xl"
+        >
+          <img
+            src={shinseiPartnership}
+            alt="Total Fitness Oldham team with Shinsei Academy at reception"
+            className="h-80 w-full object-cover md:h-[32rem]"
+          />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.3 }}
+          className="mt-6 overflow-hidden rounded-2xl"
         >
           <img
             src={gymCommunity}

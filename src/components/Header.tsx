@@ -47,7 +47,7 @@ export default function Header() {
           <img src={logo} alt="Total Fitness Oldham" className="h-10 w-10 rounded-full object-cover" />
           <span className="text-2xl text-foreground" style={{ fontFamily: "var(--font-heading)" }}>
             TOTAL FITNESS <span className="text-primary">OLDHAM</span>
-            <sup className="ml-1 text-[0.6rem] font-medium tracking-normal text-muted-foreground">Ltd</sup>
+            <sup className="ml-1.5 text-sm font-bold tracking-normal text-foreground">Ltd</sup>
           </span>
         </a>
 

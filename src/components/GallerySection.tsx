@@ -12,11 +12,11 @@ import gallery10 from "@/assets/gallery-10.jpeg";
 const photos = [
   { src: gallery1, alt: "Members training together on cable machines" },
   { src: gallery2, alt: "Member using the leg press" },
-  { src: gallery3, alt: "Member doing renegade rows with dumbbells" },
+  { src: gallery3, alt: "Members having a chat between sets" },
   { src: gallery5, alt: "Member training with dumbbells" },
-  { src: gallery6, alt: "Member performing a barbell back squat" },
+  { src: gallery6, alt: "Friends supporting each other during a workout" },
   { src: gallery7, alt: "Personal training session at Total Fitness" },
-  { src: gallery8, alt: "Member doing an incline barbell bench press" },
+  { src: gallery8, alt: "Member training in the gym" },
   { src: gallery9, alt: "Member pushing the Hyrox sled" },
   { src: gallery10, alt: "Member boxing training with speed ball" },
 ];

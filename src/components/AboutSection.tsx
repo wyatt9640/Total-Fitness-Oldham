@@ -22,7 +22,7 @@ export default function AboutSection() {
           viewport={{ once: true }}
           className="text-center"
         >
-          <h2 className="text-5xl text-primary md:text-6xl">TOTAL FITNESS OLDHAM <span className="text-foreground">×</span> SHINSEI ACADEMY</h2>
+          <h2 className="text-5xl text-primary md:text-6xl">YOUR LOCAL GYM FAMILY</h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
             We've teamed up with <span className="text-foreground font-semibold">Shinsei Academy</span>,
             a local martial arts gym, to bring even more to the Oldham fitness community. Together

@@ -14,13 +14,13 @@ import gallery3 from "@/assets/gallery-3.jpeg";
 import gallery5 from "@/assets/gallery-5.jpeg";
 import gallery6 from "@/assets/gallery-6.jpeg";
 import gallery7 from "@/assets/gallery-7.jpeg";
-import gallery8 from "@/assets/gallery-8.jpeg";
 import gallery9 from "@/assets/gallery-9.jpeg";
 import gallery10 from "@/assets/gallery-10.jpeg";
 import gallery11 from "@/assets/gallery-11.jpeg";
 import gallery12 from "@/assets/gallery-12.jpeg";
 import gallery13 from "@/assets/gallery-13.jpeg";
 import gallery14 from "@/assets/gallery-14.jpeg";
+import gallery15 from "@/assets/gallery-15.jpeg";
 
 const featured = [
   { src: gallery5, alt: "Member training with dumbbells in the mirror" },
@@ -34,7 +34,7 @@ const slideshowPhotos = [
   { src: gallery3, alt: "Members having a chat between sets" },
   { src: gallery6, alt: "Friends supporting each other during a workout" },
   { src: gallery7, alt: "Personal training session at Total Fitness" },
-  { src: gallery8, alt: "Member training in the gym" },
+  { src: gallery15, alt: "Member doing seated dumbbell curls in Total Fitness vest" },
   { src: gallery9, alt: "Member pushing the Hyrox sled" },
   { src: gallery11, alt: "Member doing renegade rows with dumbbells" },
   { src: gallery12, alt: "Member performing a barbell squat" },

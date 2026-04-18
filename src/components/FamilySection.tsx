@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Instagram, Facebook, Youtube } from "lucide-react";
 import imranImg from "@/assets/family-imran.png";
 import mariuszImg from "@/assets/family-mariusz.png";
+import nicoleImg from "@/assets/pt-nicole.jpeg";
 
 type Social = {
   type: "instagram" | "facebook" | "tiktok" | "youtube";
@@ -26,7 +27,7 @@ const family: Member[] = [
   {
     name: "Nicole",
     role: "Personal Trainer",
-    image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&q=80",
+    image: nicoleImg,
     socials: [
       { type: "instagram", url: "https://instagram.com/movewithnicolee" },
       { type: "facebook", url: "https://facebook.com/movewithnicolee" },

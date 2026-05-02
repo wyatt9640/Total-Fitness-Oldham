@@ -42,7 +42,7 @@ const slideshowPhotos = [
   { src: gallery12, alt: "Member performing a barbell squat" },
   { src: gallery13, alt: "Member training on the incline bench press" },
   { src: gallery16, alt: "Member bench pressing with spotters and friends watching on" },
-  { src: gallery17, alt: "Member training on the StairMaster stepmill" },
+  { src: gallery17, alt: "Member training on the StairMaster stepmill", objectPosition: "top" },
 ];
 
 export default function GallerySection() {
@@ -102,6 +102,7 @@ export default function GallerySection() {
                       src={photo.src}
                       alt={photo.alt}
                       className="aspect-square w-full object-cover"
+                      style={{ objectPosition: photo.objectPosition ?? "center" }}
                       loading="lazy"
                     />
                   </div>

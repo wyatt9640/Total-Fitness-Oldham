@@ -8,6 +8,7 @@ import GallerySection from "@/components/GallerySection";
 import FamilySection from "@/components/FamilySection";
 import PowerliftingSection from "@/components/PowerliftingSection";
 import ReviewsSection from "@/components/ReviewsSection";
+import SunbedSection from "@/components/SunbedSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -34,6 +35,7 @@ function Index() {
       <GallerySection />
         <FamilySection />
         <PowerliftingSection />
+        <SunbedSection />
         <ReviewsSection />
       <ContactSection />
       <Footer />

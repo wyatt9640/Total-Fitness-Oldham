@@ -22,6 +22,7 @@ import gallery13 from "@/assets/gallery-13.jpeg";
 import gallery14 from "@/assets/gallery-14.jpeg";
 import gallery15 from "@/assets/gallery-15.jpeg";
 import gallery16 from "@/assets/gallery-16.jpeg";
+import gallery17 from "@/assets/gallery-17.jpeg";
 
 const featured = [
   { src: gallery5, alt: "Member training with dumbbells in the mirror" },
@@ -41,6 +42,7 @@ const slideshowPhotos = [
   { src: gallery12, alt: "Member performing a barbell squat" },
   { src: gallery13, alt: "Member training on the incline bench press" },
   { src: gallery16, alt: "Member bench pressing with spotters and friends watching on" },
+  { src: gallery17, alt: "Member training on the StairMaster stepmill" },
 ];
 
 export default function GallerySection() {

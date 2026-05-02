@@ -1,7 +1,28 @@
 import { motion } from "framer-motion";
-import womensImg from "@/assets/gallery-8.jpeg";
+import Autoplay from "embla-carousel-autoplay";
+import { useRef } from "react";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
+import womens1 from "@/assets/womens-1.jpeg";
+import womens2 from "@/assets/womens-2.jpeg";
+import womens3 from "@/assets/womens-3.jpeg";
+import womens4 from "@/assets/womens-4.jpeg";
+import womens5 from "@/assets/womens-5.jpeg";
+
+const womensPhotos = [
+  { src: womens1, alt: "Member training on the cable machine in the women's only section" },
+  { src: womens2, alt: "Member using the Keiser leg press in the women's only section" },
+  { src: womens3, alt: "Members training together on the lat pulldown machines" },
+  { src: womens4, alt: "Members using the Keiser shoulder press machines" },
+  { src: womens5, alt: "Member doing battle ropes in the women's only section" },
+];
 
 export default function WomensSection() {
+  const autoplay = useRef(Autoplay({ delay: 3500, stopOnInteraction: false }));
+
   return (
     <section className="px-6 py-24">
       <div className="mx-auto max-w-6xl">
@@ -46,13 +67,24 @@ export default function WomensSection() {
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="overflow-hidden rounded-2xl"
           >
-            <img
-              src={womensImg}
-              alt="Women's only gym section at Total Fitness Oldham"
-              className="h-full w-full object-cover"
-            />
+            <Carousel
+              opts={{ loop: true }}
+              plugins={[autoplay.current]}
+              className="overflow-hidden rounded-2xl"
+            >
+              <CarouselContent>
+                {womensPhotos.map((photo, i) => (
+                  <CarouselItem key={i}>
+                    <img
+                      src={photo.src}
+                      alt={photo.alt}
+                      className="aspect-[4/5] h-full w-full object-cover"
+                    />
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+            </Carousel>
           </motion.div>
         </div>
       </div>

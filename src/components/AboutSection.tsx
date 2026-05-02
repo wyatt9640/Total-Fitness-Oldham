@@ -5,7 +5,7 @@ import shinseiPartnership from "@/assets/shinsei-partnership.jpeg";
 const features = [
   { icon: "🤝", title: "Community First", desc: "We're a family, not just a gym. Everyone knows your name here." },
   { icon: "🧖", title: "Sauna & Recovery", desc: "Wind down after your workout in our relaxing sauna." },
-  { icon: "🚴", title: "Group Classes", desc: "Cycling, HIIT, yoga and more — train together, grow together." },
+  { icon: "🚴", title: "Group Classes", desc: "Cycling, HIIT, yoga and more - train together, grow together." },
   { icon: "🍎", title: "Nutrition Advice", desc: "Free nutrition consulting to help you reach your goals." },
   { icon: "💪", title: "Personal Training", desc: "Expert PTs who genuinely care about your progress." },
   { icon: "👋", title: "Friendly Staff", desc: "Red carpet treatment from the moment you walk in." },
@@ -25,7 +25,7 @@ export default function AboutSection() {
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
             We've teamed up with <span className="text-foreground font-semibold">Shinsei Academy</span>,
             a local martial arts gym, to bring even more to the Oldham fitness community. Together
-            we're building a place where strength, discipline and friendship come first — a real
+            we're building a place where strength, discipline and friendship come first - a real
             community where everyone is welcome, supported and known by name.
           </p>
           <a

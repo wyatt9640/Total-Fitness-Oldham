@@ -22,7 +22,7 @@ const TikTokIcon = ({ className }: { className?: string }) => (
   </svg>
 );
 
-// Placeholder lifters — replace with real photos, certificates and socials.
+// Placeholder lifters - replace with real photos, certificates and socials.
 const lifters: Lifter[] = [
   {
     name: "David Clifford",

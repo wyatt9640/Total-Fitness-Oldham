@@ -40,7 +40,7 @@ export default function WomensSection() {
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
               We understand that comfort matters. Our dedicated women's only area gives you
-              the space to train at your own pace, in your own way — with all the same
+              the space to train at your own pace, in your own way - with all the same
               great equipment and a supportive atmosphere.
             </p>
             <ul className="mt-6 space-y-3 text-muted-foreground">

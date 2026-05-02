@@ -14,7 +14,7 @@ export default function SunbedSection() {
           <h2 className="mt-4 text-5xl text-primary md:text-6xl">TOP UP YOUR TAN</h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
             On-site sunbed available for members and walk-ins. Quick, convenient and
-            the perfect finish to your workout — get that holiday glow without leaving the gym.
+            the perfect finish to your workout - get that holiday glow without leaving the gym.
           </p>
         </motion.div>
       </div>

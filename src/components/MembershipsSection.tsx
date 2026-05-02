@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const plans = [
-  { name: "Day Pass", price: "£5.99", period: "", desc: "Just want to try us out? Pop in for the day — no strings attached.", highlight: false },
+  { name: "Day Pass", price: "£5.99", period: "", desc: "Just want to try us out? Pop in for the day - no strings attached.", highlight: false },
   { name: "1 Month", price: "£25.99", period: "/month", desc: "Get stuck in for a full month and feel the difference.", highlight: false },
   { name: "3 Months", price: "£70.99", period: "/3 months", desc: "Commit to your goals and save. Our most popular choice.", highlight: true },
-  { name: "6 Months", price: "£135.99", period: "/6 months", desc: "Best value — serious about change? This is for you.", highlight: false },
+  { name: "6 Months", price: "£135.99", period: "/6 months", desc: "Best value - serious about change? This is for you.", highlight: false },
 ];
 
 export default function MembershipsSection() {
@@ -20,7 +20,7 @@ export default function MembershipsSection() {
           <h2 className="text-5xl text-primary md:text-6xl">MEMBERSHIPS</h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
             Simple, honest pricing. No hidden fees, no contracts you can't get out of.
-            Sign up at reception — we'd love to show you around first.
+            Sign up at reception - we'd love to show you around first.
           </p>
         </motion.div>
 
@@ -70,7 +70,7 @@ export default function MembershipsSection() {
             🏋️ All memberships include full gym access, women's section, sauna, group classes & free parking.
             <br />
             <span className="text-sm text-muted-foreground">
-              Come visit us at reception and we'll get you sorted — no online sign-up needed.
+              Come visit us at reception and we'll get you sorted - no online sign-up needed.
             </span>
           </p>
         </motion.div>

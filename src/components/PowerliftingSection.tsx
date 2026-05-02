@@ -31,13 +31,6 @@ const lifters: Lifter[] = [
     certificate: davidCliffordCert,
     socials: [{ type: "instagram", url: "https://instagram.com/dacdac65" }],
   },
-  {
-    name: "Add Name",
-    title: "Regional Record Holder",
-    image: "https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?w=800&q=80",
-    certificate: "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?w=800&q=80",
-    socials: [{ type: "instagram", url: "https://instagram.com/" }],
-  },
 ];
 
 function SocialIcon({ social }: { social: Social }) {
@@ -70,7 +63,7 @@ export default function PowerliftingSection() {
           </p>
         </motion.div>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
+        <div className="mx-auto mt-12 grid max-w-2xl gap-6">
           {lifters.map((lifter, i) => (
             <motion.div
               key={lifter.name + i}

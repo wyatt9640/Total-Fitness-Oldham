@@ -13,7 +13,7 @@ export default function ContactSection() {
           <h2 className="text-5xl text-primary md:text-6xl">COME SEE US</h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
             We're right in the heart of Oldham. Pop in for a tour, grab a day pass,
-            or just say hello — the kettle's always on.
+            or just say hello - the kettle's always on.
           </p>
         </motion.div>
 

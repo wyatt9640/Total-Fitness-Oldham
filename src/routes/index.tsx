@@ -15,10 +15,10 @@ import Footer from "@/components/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Total Fitness Oldham — Your Local Gym Family" },
+      { title: "Total Fitness Oldham - Your Local Gym Family" },
       { name: "description", content: "Community-focused gym in Oldham with sauna, women's only section, personal training, group classes and affordable memberships. Visit us at Daniel St, OL1 3NS." },
-      { property: "og:title", content: "Total Fitness Oldham — Your Local Gym Family" },
-      { property: "og:description", content: "More than a gym — your local fitness community in Oldham. Day passes from £5." },
+      { property: "og:title", content: "Total Fitness Oldham - Your Local Gym Family" },
+      { property: "og:description", content: "More than a gym - your local fitness community in Oldham. Day passes from £5." },
     ],
   }),
   component: Index,

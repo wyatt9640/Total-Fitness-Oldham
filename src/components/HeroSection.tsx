@@ -72,7 +72,7 @@ export default function HeroSection() {
           transition={{ delay: 0.6, duration: 0.8 }}
           className="mt-8 max-w-lg text-lg text-muted-foreground"
         >
-          More than a gym — your local fitness community
+          More than a gym - your local fitness community
         </motion.p>
 
         <motion.div

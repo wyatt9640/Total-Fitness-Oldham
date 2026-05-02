@@ -59,7 +59,7 @@ export default function GallerySection() {
         >
           <h2 className="text-5xl text-primary md:text-6xl">THE PEOPLE</h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
-            The heart and soul of Total Fitness Oldham — our amazing members.
+            The heart and soul of Total Fitness Oldham - our amazing members.
           </p>
         </motion.div>
 

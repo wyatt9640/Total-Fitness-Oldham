@@ -5,7 +5,7 @@ const plans = [
   { name: "1 Month", price: "£26.99", period: "/month", desc: "Get stuck in for a full month and feel the difference.", highlight: false },
   { name: "3 Months", price: "£71.99", period: "/3 months", desc: "Commit to your goals and save. Our most popular choice.", highlight: true },
   { name: "6 Months", price: "£136.99", period: "/6 months", desc: "Serious about change? This is for you.", highlight: false },
-  { name: "12 Months", price: "£270", period: "/year", desc: "Best value - go all in for the year and save the most.", highlight: false },
+  { name: "12 Months", price: "£270", period: "/year", desc: "Best value - go all in for the year and save the most.", highlight: false, badge: "LIMITED" },
 ];
 
 export default function MembershipsSection() {
@@ -42,6 +42,11 @@ export default function MembershipsSection() {
               {plan.highlight && (
                 <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-foreground px-4 py-1 text-xs font-bold text-background">
                   MOST POPULAR
+                </span>
+              )}
+              {plan.badge && (
+                <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-accent px-4 py-1 text-xs font-bold text-accent-foreground">
+                  {plan.badge}
                 </span>
               )}
               <h3 className="text-lg font-semibold">{plan.name}</h3>

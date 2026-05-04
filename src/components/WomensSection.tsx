@@ -79,23 +79,25 @@ export default function WomensSection() {
                 <CarouselContent>
                   {womensPhotos.map((photo, i) => (
                     <CarouselItem key={i}>
-                      <img
-                        src={photo.src}
-                        alt={photo.alt}
-                        className="aspect-[4/5] h-full w-full object-cover"
-                      />
+                      <div className="relative">
+                        <img
+                          src={photo.src}
+                          alt={photo.alt}
+                          className="aspect-[4/5] h-full w-full object-cover"
+                        />
+                        <a
+                          href={`https://instagram.com/${photo.handle}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="absolute bottom-4 right-4 rounded-full bg-background/80 px-3 py-1.5 text-sm font-semibold text-foreground backdrop-blur-sm transition hover:bg-background"
+                        >
+                          @{photo.handle}
+                        </a>
+                      </div>
                     </CarouselItem>
                   ))}
                 </CarouselContent>
               </Carousel>
-              <a
-                href="https://instagram.com/_chloe_dsouza_"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="absolute bottom-4 right-4 rounded-full bg-background/80 px-3 py-1.5 text-sm font-semibold text-foreground backdrop-blur-sm transition hover:bg-background"
-              >
-                @_chloe_dsouza_
-              </a>
             </div>
           </motion.div>
         </div>

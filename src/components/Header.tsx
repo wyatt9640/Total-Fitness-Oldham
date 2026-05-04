@@ -135,11 +135,16 @@ export default function Header() {
         </div>
       ) : null}
 
-      <div className="bg-primary px-4 py-2 text-center">
+      <a
+        href={IG_LINK}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block bg-primary px-4 py-2 text-center transition-opacity hover:opacity-90"
+      >
         <p className="text-xs font-bold uppercase tracking-wider text-primary-foreground md:text-sm">
-          🎉 Kids &amp; Adult Classes - Coming Soon! Stay tuned for details.
+          📷 Live Instagram Updates - Follow @totalfitnessoldham1 for daily posts!
         </p>
-      </div>
+      </a>
     </header>
   );
 }

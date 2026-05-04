@@ -12,6 +12,7 @@ import SunbedSection from "@/components/SunbedSection";
 import SupplementsSection from "@/components/SupplementsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -41,6 +42,7 @@ function Index() {
         <ReviewsSection />
       <ContactSection />
       <Footer />
+      <WhatsAppFloat />
     </div>
   );
 }

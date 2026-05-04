@@ -3,7 +3,7 @@ import logo from "@/assets/logo.jpeg";
 
 const IG_LINK = "https://www.instagram.com/totalfitnessoldham1";
 const FB_LINK = "https://www.facebook.com/totalfitnessoldham1";
-const TT_LINK = "https://www.tiktok.com/@total_fitness_old";
+const TT_LINK = "https://www.tiktok.com/@total.fitness.old";
 
 const navLinks = [
   { label: "About", href: "#about" },

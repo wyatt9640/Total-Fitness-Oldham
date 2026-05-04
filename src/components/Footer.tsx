@@ -2,7 +2,7 @@ import logo from "@/assets/logo.jpeg";
 
 const INSTAGRAM_URL = "https://www.instagram.com/totalfitnessoldham1";
 const FACEBOOK_URL = "https://www.facebook.com/totalfitnessoldham1";
-const TIKTOK_URL = "https://www.tiktok.com/@total_fitness_old";
+const TIKTOK_URL = "https://www.tiktok.com/@total.fitness.old";
 
 export default function Footer() {
   return (

@@ -19,7 +19,8 @@ export default function SupplementsSection() {
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
             Need a top-up? We stock a range of trusted supplements behind the counter at
             reception - protein, pre-workout, shakers and more. You can also grab
-            official Total Fitness Oldham apparel while you're there. Just ask the team
+            official Total Fitness Oldham apparel while you're there - jumpers, vests
+            and shirts. Just ask the team
             and we'll sort you out before or after your session.
           </p>
         </motion.div>

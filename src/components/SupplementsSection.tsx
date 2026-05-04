@@ -14,12 +14,13 @@ export default function SupplementsSection() {
             At Reception
           </span>
           <h2 className="mt-4 text-4xl text-foreground md:text-5xl">
-            SUPPLEMENTS IN-HOUSE
+            SUPPLEMENTS & APPAREL IN-HOUSE
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
             Need a top-up? We stock a range of trusted supplements behind the counter at
-            reception - protein, pre-workout, shakers and more. Just ask the team and
-            we'll sort you out before or after your session.
+            reception - protein, pre-workout, shakers and more. You can also grab
+            official Total Fitness Oldham apparel while you're there. Just ask the team
+            and we'll sort you out before or after your session.
           </p>
         </motion.div>
       </div>

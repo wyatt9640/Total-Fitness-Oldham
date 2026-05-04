@@ -10,7 +10,6 @@ import PowerliftingSection from "@/components/PowerliftingSection";
 import ReviewsSection from "@/components/ReviewsSection";
 import SunbedSection from "@/components/SunbedSection";
 import SupplementsSection from "@/components/SupplementsSection";
-import InstagramFeedSection from "@/components/InstagramFeedSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
@@ -41,7 +40,6 @@ function Index() {
         <SunbedSection />
         <SupplementsSection />
         <ReviewsSection />
-      <InstagramFeedSection />
       <ContactSection />
       <Footer />
       <WhatsAppFloat />

@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
 
 const plans = [
-  { name: "Day Pass", price: "£5.99", period: "", desc: "Just want to try us out? Pop in for the day - no strings attached.", highlight: false },
-  { name: "1 Month", price: "£25.99", period: "/month", desc: "Get stuck in for a full month and feel the difference.", highlight: false },
-  { name: "3 Months", price: "£70.99", period: "/3 months", desc: "Commit to your goals and save. Our most popular choice.", highlight: true },
-  { name: "6 Months", price: "£135.99", period: "/6 months", desc: "Best value - serious about change? This is for you.", highlight: false },
+  { name: "Day Pass", price: "£7.99", period: "", desc: "Just want to try us out? Pop in for the day - no strings attached.", highlight: false },
+  { name: "1 Month", price: "£26.99", period: "/month", desc: "Get stuck in for a full month and feel the difference.", highlight: false },
+  { name: "3 Months", price: "£71.99", period: "/3 months", desc: "Commit to your goals and save. Our most popular choice.", highlight: true },
+  { name: "6 Months", price: "£136.99", period: "/6 months", desc: "Serious about change? This is for you.", highlight: false },
+  { name: "12 Months", price: "£270", period: "/year", desc: "Best value - go all in for the year and save the most.", highlight: false },
 ];
 
 export default function MembershipsSection() {
@@ -24,7 +25,7 @@ export default function MembershipsSection() {
           </p>
         </motion.div>
 
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {plans.map((plan, i) => (
             <motion.div
               key={plan.name}

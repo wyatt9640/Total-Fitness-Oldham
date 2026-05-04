@@ -13,13 +13,16 @@ import womens4 from "@/assets/womens-4.jpeg";
 import womens5 from "@/assets/womens-5.jpeg";
 import nicole from "@/assets/nicole.jpeg";
 
-const womensPhotos = [
+const mainPhotos = [
   { src: womens1, alt: "Member training on the cable machine in the women's only section", handle: "_chloe_dsouza_" },
-  { src: womens2, alt: "Member using the Keiser leg press in the women's only section", handle: "_chloe_dsouza_" },
+  { src: nicole, alt: "Member in the women's only section", handle: "movewithnicolee" },
   { src: womens3, alt: "Members training together on the lat pulldown machines", handle: "_chloe_dsouza_" },
+];
+
+const slideshowPhotos = [
+  { src: womens2, alt: "Member using the Keiser leg press in the women's only section", handle: "_chloe_dsouza_" },
   { src: womens4, alt: "Members using the Keiser shoulder press machines", handle: "_chloe_dsouza_" },
   { src: womens5, alt: "Member doing battle ropes in the women's only section", handle: "_chloe_dsouza_" },
-  { src: nicole, alt: "Member in the women's only section", handle: "movewithnicolee" },
 ];
 
 export default function WomensSection() {

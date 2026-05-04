@@ -42,6 +42,7 @@ function Index() {
         <ReviewsSection />
       <ContactSection />
       <Footer />
+      <WhatsAppFloat />
     </div>
   );
 }

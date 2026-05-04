@@ -12,7 +12,6 @@ import SunbedSection from "@/components/SunbedSection";
 import SupplementsSection from "@/components/SupplementsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
-import InstagramAlert from "@/components/InstagramAlert";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -29,7 +28,6 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <div className="min-h-screen bg-background">
-      <InstagramAlert />
       <Header />
       <HeroSection />
       <AboutSection />

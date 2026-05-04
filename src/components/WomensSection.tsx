@@ -11,6 +11,7 @@ import womens2 from "@/assets/womens-2.jpeg";
 import womens3 from "@/assets/womens-3.jpeg";
 import womens4 from "@/assets/womens-4.jpeg";
 import womens5 from "@/assets/womens-5.jpeg";
+import nicole from "@/assets/nicole.jpeg";
 
 const womensPhotos = [
   { src: womens1, alt: "Member training on the cable machine in the women's only section" },

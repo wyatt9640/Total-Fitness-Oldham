@@ -33,10 +33,10 @@ function Index() {
       <Header />
       <HeroSection />
       <AboutSection />
-      <FamilySection />
-      <MembershipsSection />
       <GallerySection />
+      <MembershipsSection />
         <WomensSection />
+        <FamilySection />
         <PowerliftingSection />
         <SunbedSection />
         <SupplementsSection />

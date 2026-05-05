@@ -5,7 +5,7 @@ const plans = [
   { name: "1 Month", price: "£26.99", period: "/month", desc: "Get stuck in for a full month and feel the difference.", highlight: false },
   { name: "3 Months", price: "£71.99", period: "/3 months", desc: "Commit to your goals and save. Our most popular choice.", highlight: true },
   { name: "6 Months", price: "£136.99", period: "/6 months", desc: "Serious about change? This is for you.", highlight: false },
-  { name: "12 Months", price: "£270", period: "/year", desc: "Best value - go all in for the year and save the most.", highlight: false, badge: "LIMITED" },
+  { name: "12 Months", price: "£271.99", period: "/year", desc: "Best value - go all in for the year and save the most.", highlight: false, badge: "LIMITED" },
 ];
 
 export default function MembershipsSection() {

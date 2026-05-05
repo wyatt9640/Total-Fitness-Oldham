@@ -13,6 +13,7 @@ import SupplementsSection from "@/components/SupplementsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import ViewToggle from "@/components/ViewToggle";
 
 export const Route = createFileRoute("/")({
   head: () => ({

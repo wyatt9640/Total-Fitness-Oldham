@@ -44,6 +44,7 @@ function Index() {
       <ContactSection />
       <Footer />
       <WhatsAppFloat />
+      <ViewToggle />
     </div>
   );
 }

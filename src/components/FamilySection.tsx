@@ -42,12 +42,11 @@ const family: Member[] = [
     ],
   },
   {
-    name: "FitnessFreakImran",
-    role: "Member",
-    image: imranImg,
+    name: "Jordon Rowe",
+    role: "Personal Trainer",
+    image: jordonImg,
     socials: [
-      { type: "instagram", url: "https://instagram.com/fitness.freak.imran" },
-      { type: "tiktok", url: "https://tiktok.com/@fitnessfreakimran" },
+      { type: "instagram", url: "https://instagram.com/jr___coaching" },
     ],
   },
 ];

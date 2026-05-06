@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Instagram, Facebook, Youtube } from "lucide-react";
-import imranImg from "@/assets/family-imran.png";
+import jordonImg from "@/assets/pt-jordon.jpeg";
 import mariuszImg from "@/assets/family-mariusz.png";
 import nicoleImg from "@/assets/pt-nicole.jpeg";
 
@@ -42,12 +42,11 @@ const family: Member[] = [
     ],
   },
   {
-    name: "FitnessFreakImran",
-    role: "Member",
-    image: imranImg,
+    name: "Jordon Rowe",
+    role: "Personal Trainer",
+    image: jordonImg,
     socials: [
-      { type: "instagram", url: "https://instagram.com/fitness.freak.imran" },
-      { type: "tiktok", url: "https://tiktok.com/@fitnessfreakimran" },
+      { type: "instagram", url: "https://instagram.com/jr___coaching" },
     ],
   },
 ];

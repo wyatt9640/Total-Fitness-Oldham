@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Instagram, Facebook, Youtube } from "lucide-react";
-import imranImg from "@/assets/family-imran.png";
+import jordonImg from "@/assets/pt-jordon.jpeg";
 import mariuszImg from "@/assets/family-mariusz.png";
 import nicoleImg from "@/assets/pt-nicole.jpeg";
 
